@@ -1,0 +1,25 @@
+{
+    "inbounds": [{
+        "port": 443,
+        "protocol": "vless",
+        "settings": {
+            "clients": [{
+                "id": "99379327-2b03-4f05-8c3f-e827c11dfe33",
+                "flow": "xtls-rprx-vision"
+            }],
+            "decryption": "none",
+            "fallbacks": [{"dest": 80}]
+        },
+        "streamSettings": {
+            "network": "tcp",
+            "security": "reality",
+            "realitySettings": {
+                "show": false,
+                "dest": "://microsoft.com",
+                "xver": 0,
+                "privateKey": "uPvX_...заменится_автоматом...",
+                "shortIds": ["66"]
+            }
+        }
+    }]
+}
